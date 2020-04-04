@@ -32,8 +32,8 @@ in
   options.hardware.system76 = {
     enable = lib.mkOption {
       type = lib.types.bool;
-      default = false;
-      example = true;
+      default = true;
+      example = false;
       description = ''
         Whether to enable support for System76 hardware.
       '';
